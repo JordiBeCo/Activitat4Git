@@ -1,6 +1,9 @@
+import com.sun.org.apache.xpath.internal.SourceTree;
+
 import java.util.*;
 public class NumerosAleatoris {
     public static void main(String[] args) {
+        long timer = System.currentTimeMillis();
         Random aleatori = new Random();
         int numero = 14321;
 
@@ -11,5 +14,8 @@ public class NumerosAleatoris {
         }
 
         System.out.println(llista_nums.contains(numero));
+
+
+        System.out.println("Ha tardat " + (System.currentTimeMillis() - timer) + "ms en trobar el numero");
     }
 }
