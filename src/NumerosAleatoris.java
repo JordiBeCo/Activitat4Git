@@ -7,7 +7,7 @@ public class NumerosAleatoris {
         List<Integer> llista_nums = new ArrayList<>();
 
         for (int i = 0; i < 500000 ; i++) {
-            int rand = aleatori.nextInt(1000000);
+            int rand = aleatori.nextInt(700000);
         }
 
         System.out.println(llista_nums.contains(numero));
